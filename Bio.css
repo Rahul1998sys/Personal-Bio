@@ -1,0 +1,330 @@
+/* Created by Rahul Saxena */
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&family=Signika+Negative:wght@300..700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&family=Roboto+Slab:wght@100..900&family=Signika+Negative:wght@300..700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&family=Play:wght@400;700&family=Roboto+Slab:wght@100..900&family=Signika+Negative:wght@300..700&display=swap');
+
+@media(min-width:0px){
+
+    
+
+body{
+
+    background-color: white;
+
+    color:white;
+
+}
+
+*{
+
+    padding: 0;
+
+    margin: 0;
+
+    box-sizing: border-box;
+
+}
+
+.h-primary{
+
+    font-family: "Signika Negative", sans-serif;
+
+    font-optical-sizing: auto;
+
+    font-weight: <weight>;
+
+    font-style: normal;
+
+}
+
+.Basics,.About,.professional-experience,.school-experience,.Skillset,footer{
+
+    box-shadow: 1px 1px 15px -5px black;
+
+}
+
+.Basics{
+
+    color: black;
+
+    display: flex;
+
+    box-shadow: 1px 1px 15px -5px black;
+
+    justify-content: center;
+
+    align-items: center;
+
+    height: 100%;
+
+    flex-direction: column;
+
+    margin: 12px;
+
+    gap: 20px;
+
+    background-color: #b6dada;
+
+}
+
+.Basics h4{
+
+    margin-bottom: 20px;
+
+    font-family:sans-serif;
+
+    font-size: 15px;
+
+    font-weight: 550;
+
+}
+
+.Basics img{
+
+    width: 94px;
+
+    height: 90px;
+
+    border-radius: 50%;
+
+    display: block;
+
+}
+
+.About{
+
+    margin: 12px;
+
+    background-color: white;
+
+    color: black;
+
+    padding: 16px;
+
+}
+
+.About p{
+
+    font-size: 1.1rem;
+
+    font-family: "Roboto Slab", serif;
+
+    font-optical-sizing: auto;
+
+    font-style: normal;
+
+}
+
+.Skillset{
+
+    background-color: white;
+
+    color: black;
+
+    margin-top: 13px;
+
+    padding: 16px;
+
+    margin: 12px;
+
+}
+
+.Skills{
+
+    display: flex;
+
+    /* justify-content: space-evenly; */
+
+    /* justify-content: center; */
+
+    align-items: center;
+
+    /* gap: 30px; */
+
+    flex-wrap: wrap;
+
+    flex-shrink: 1;
+
+    flex-grow: 2;
+
+    padding: 16px;
+
+
+
+}
+
+
+
+.Skills li{
+
+    list-style: none;
+
+    background-color: lightblue;
+
+    border-radius: 7px;
+
+    padding: 9px 9px;
+
+    margin: 14px ;
+
+    margin-top: 10px;
+
+    font-family:sans-serif;
+
+    font-size: 15px;
+
+    font-weight:550;
+
+}
+
+.professional-experience{
+
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 12px;
+
+    background-color: white;
+
+    color: black;
+
+    margin-top: 12px;
+
+    margin: 12px;
+
+}
+
+.professional-experience h4,.professional-experience p,h2{
+
+    padding-left:25px;
+
+    margin-top: 12px;
+
+}
+
+.professional-experience ul{
+
+    padding-left: 30px;
+
+    margin-bottom: 12px;
+
+    font-family: "Play", sans-serif;
+
+    font-weight: 400;
+
+    font-style: normal;
+
+}
+
+.school-experience{
+
+    background-color: white;
+
+    color: black;
+
+    margin: 12px;
+
+    font-family: "Play", sans-serif;
+
+    font-weight: 400;
+
+    font-style: normal;
+    padding-bottom:1px;
+
+}
+
+table{
+
+    width: 90%;
+
+    height: 00px;
+
+    text-align: center;
+
+    border-spacing: 14px;
+
+    margin: 12px;
+    border-collapse:collapse ;
+    background-color:white;
+
+}
+
+table th{
+
+    border: 2px solid black;
+
+    padding: 5px;
+
+}
+
+table td{
+
+    border: 2px solid red;
+
+    width: 50px;
+
+    height: 40px;
+
+    /* padding: 5px; */   
+
+}
+
+footer{
+
+    color: black;
+
+    text-align: center;
+
+    background-color: #b6dada;
+
+    margin: 12px;
+
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 12PX;
+
+    font-family: "Roboto Slab", serif;
+
+    font-optical-sizing: auto;
+
+    font-style: normal;
+
+    
+
+}
+
+.Email{
+
+    margin-bottom: 12px;
+
+}
+
+
+
+}
+
+@media(min-width:800px){
+
+    table{
+
+        width: 70%;
+
+        margin: auto;
+
+    }
+
+    
+
+
+
+  }
